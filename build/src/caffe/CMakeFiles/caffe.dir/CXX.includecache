@@ -2355,18 +2355,10 @@ caffe/util/upgrade_proto.hpp
 /home/zhangyan/icaffe/src/caffe/solvers/caffe/util/upgrade_proto.hpp
 
 /home/zhangyan/icaffe/src/caffe/solvers/svrg_solver.cpp
-string
--
 vector
 -
-caffe/svrg_solvers.hpp
-/home/zhangyan/icaffe/src/caffe/solvers/caffe/svrg_solvers.hpp
-caffe/util/hdf5.hpp
-/home/zhangyan/icaffe/src/caffe/solvers/caffe/util/hdf5.hpp
-caffe/util/io.hpp
-/home/zhangyan/icaffe/src/caffe/solvers/caffe/util/io.hpp
-caffe/util/upgrade_proto.hpp
-/home/zhangyan/icaffe/src/caffe/solvers/caffe/util/upgrade_proto.hpp
+caffe/sgd_solvers.hpp
+/home/zhangyan/icaffe/src/caffe/solvers/caffe/sgd_solvers.hpp
 
 /home/zhangyan/icaffe/src/caffe/syncedmem.cpp
 caffe/common.hpp

@@ -143,6 +143,23 @@ class AdamSolver : public SGDSolver<Dtype> {
   DISABLE_COPY_AND_ASSIGN(AdamSolver);
 };
 
+// Ngaam -- Test SVRG
+template <typename Dtype>
+class SVRGSolver : public SGDSolver<Dtype> {
+ public:
+  explicit SVRGSolver(const SolverParameter& param)
+      : SGDSolver<Dtype>(param) { SVRGPreSolve(); }
+  explicit SVRGSolver(const string& param_file)
+      : SGDSolver<Dtype>(param_file) { SVRGPreSolve(); }
+  virtual inline const char* type() const { return "SVRG"; }
+
+ protected:
+  void SVRGPreSolve();
+  virtual void ComputeUpdateValue(int param_id, Dtype rate);
+
+  DISABLE_COPY_AND_ASSIGN(SVRGSolver);
+};
+
 }  // namespace caffe
 
 #endif  // CAFFE_SGD_SOLVERS_HPP_

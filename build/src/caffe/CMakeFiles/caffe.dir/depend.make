@@ -6883,14 +6883,19 @@ src/caffe/CMakeFiles/caffe.dir/solvers/sgd_solver.cpp.o: include/caffe/proto/caf
 
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/blob.hpp
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/common.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/layer.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/layer_factory.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/net.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/sgd_solvers.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/solver.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/solver_factory.hpp
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/syncedmem.hpp
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/cudnn.hpp
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/device_alternate.hpp
-src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/format.hpp
-src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/hdf5.hpp
-src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/io.hpp
-src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/upgrade_proto.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/math_functions.hpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../include/caffe/util/mkl_alternate.hpp
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: ../src/caffe/solvers/svrg_solver.cpp
+src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: /usr/include/atlas/cblas.h
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: /usr/local/cuda/include/builtin_types.h
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: /usr/local/cuda/include/channel_descriptor.h
 src/caffe/CMakeFiles/caffe.dir/solvers/svrg_solver.cpp.o: /usr/local/cuda/include/common_functions.h
